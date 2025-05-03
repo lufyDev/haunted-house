@@ -34,7 +34,7 @@ scene.add(sphere)
 // Floor
 const floor = new THREE.Mesh(
     new THREE.PlaneGeometry(20, 20),
-    new THREE.MeshStandardMaterial({ color: '#ff0000' })
+    new THREE.MeshStandardMaterial({ color: '#ffaa00' })
 )
 floor.rotation.x = - Math.PI * 0.5
 floor.position.y = 0
